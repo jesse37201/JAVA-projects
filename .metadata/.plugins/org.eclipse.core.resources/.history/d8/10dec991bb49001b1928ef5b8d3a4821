@@ -1,0 +1,13 @@
+import java.util.*;
+public class Rabbit{
+	public static void main(String[]args) {
+		int month=0;
+		System.out.println("Please input you want know the month the rabbit quantity");
+		Scanner sc = new Scanner(System.in);
+		month = sc.nextInt();
+		for(int i=1;i<=month;i++) {
+			int rabbit=1;
+			rabbit=rabbit+rabbit-1;
+		}
+	}
+}

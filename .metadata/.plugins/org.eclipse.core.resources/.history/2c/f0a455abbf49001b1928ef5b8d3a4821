@@ -1,0 +1,19 @@
+import java.util.*;
+public class Rabbit{
+	public static void main(String[]args) {
+		int month=0;
+		System.out.println("Please input you want know the month the rabbit quantity");
+		Scanner sc = new Scanner(System.in);
+		month = sc.nextInt();
+		System.out.println(month+"month"+"rabbits is"+rabbits.add(month));
+	}
+}
+class rabbits{
+	public static int add(int n) {
+		if(n==1||n==2) {
+			return n;
+		}
+		else {
+			return add(n-1)+add(n-2);
+		}
+}
